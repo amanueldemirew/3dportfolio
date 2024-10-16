@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  gamehub,
+  alxse,
+  alxai,
 } from "../assets";
 
 export const navLinks = [
@@ -199,68 +202,35 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Game Hub",
+    description: "Web-based platform that allows users to search, Filter Game.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "rawg.io API",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Chakra-ui",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gamehub,
+    source_code_link: "https://github.com/amanueldemirew/gamehub.git",
+  },
+];
+const Certifications = [
+  {
+    image: alxse,
+    source_code_link: "https://intranet.alxswe.com/certificates/BHzRM6en97",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: alxai,
+    source_code_link: "https://intranet.alxswe.com/certificates/c8NmMpCPf2",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, Certifications, technologies, experiences, testimonials, projects };

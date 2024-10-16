@@ -12,6 +12,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import Cert from "./components/Cert";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
+        <Cert/>
         <Feedbacks />
       </div>
       <div className="relative z-0">
