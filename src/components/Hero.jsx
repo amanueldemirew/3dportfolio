@@ -32,8 +32,10 @@ const Hero = () => {
             <br className="sm:block hidden" />| UI/UX Designer
           </p>
         </div>
+        <div className="flex flex-col">
+          <img src={aman} alt="Aman" className="w-60 h-80 rounded-lg object-cover" />
+        </div>
       </div>
-
       <ComputersCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
