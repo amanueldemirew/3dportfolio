@@ -33,7 +33,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex flex-col">
-          <img src={aman} alt="Aman" className="w-60 h-80 sm:hidden block rounded-lg object-cover" />
+          <img src={aman} alt="Aman" className="w-60 h-80 hidden sm:block rounded-lg object-cover" />
         </div>
       </div>
       <ComputersCanvas />
